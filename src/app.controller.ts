@@ -11,7 +11,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    console.log('cc', this.configService.get('DB'));
+    console.log('cc', this.configService.get('db'));
     return this.appService.getHello();
   }
 }
