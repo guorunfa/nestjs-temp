@@ -1,7 +1,7 @@
-import { Controller, Get, Post } from '@nestjs/common';
+import { Controller, Delete, Get, Patch, Post } from '@nestjs/common';
 import { UserService } from './user.service';
 import { ConfigService } from '@nestjs/config';
-import { ConfigEnum } from '../enum/config.enum';
+import { User } from './user.entity';
 
 @Controller('user')
 export class UserController {
@@ -12,35 +12,28 @@ export class UserController {
 
   @Get()
   getUsers(): any {
-    // const db = this.configService.get(ConfigEnum.DB);
-    // const host = this.configService.get(ConfigEnum.DB_HOST);
-    // console.log(
-    //   '🚀 ~ file: user.controller.ts ~ line 15 ~ UserController ~ getUsers ~ db',
-    //   db,
-    //   host,
-    // );
-    // const url = this.configService.get('DB_URL');
-    // console.log(
-    //   '🚀 ~ file: user.controller.ts ~ line 23 ~ UserController ~ getUsers ~ url',
-    //   url,
-    // );
-    // const port = this.configService.get('DB_PORT');
-    // console.log(
-    //   '🚀 ~ file: user.controller.ts ~ line 28 ~ UserController ~ getUsers ~ port',
-    //   port,
-    // );
-    // console.log(process.env);
-    const password =
-      process.env.DB_PASSWORD || this.configService.get(ConfigEnum.DB_PASSWORD);
-    console.log(
-      '🚀 ~ file: user.controller.ts ~ line 34 ~ UserController ~ getUsers ~ password',
-      password,
-    );
-    return this.userService.getUsers();
+    return this.userService.findAll();
+    // return this.userService.getUsers();
   }
 
   @Post()
   addUser(): any {
-    return this.userService.addUser();
+    // todo 解析Body参数
+    const user = { username: 'toimc', password: '123456' } as User;
+    // return this.userService.addUser();
+    return this.userService.create(user);
+  }
+  @Patch()
+  updateUser(): any {
+    // todo 传递参数id
+    // todo 异常处理
+    const user = { username: 'newname' } as User;
+    return this.userService.update(1, user);
+  }
+
+  @Delete()
+  deleteUser(): any {
+    // todo 传递参数id
+    return this.userService.remove(1);
   }
 }
