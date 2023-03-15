@@ -2,6 +2,7 @@ import { Controller, Delete, Get, Patch, Post } from '@nestjs/common';
 import { UserService } from './user.service';
 import { ConfigService } from '@nestjs/config';
 import { User } from './user.entity';
+import { log } from 'console';
 
 @Controller('user')
 export class UserController {
@@ -10,9 +11,10 @@ export class UserController {
     private configService: ConfigService,
   ) {}
 
-  @Get()
+  @Get('add')
   getUsers(): any {
-    return this.userService.findAll();
+    console.log('add');
+    return this.userService.add();
     // return this.userService.getUsers();
   }
 

@@ -8,6 +8,13 @@ export class UserService {
   constructor(
     @InjectRepository(User) private readonly userRepository: Repository<User>,
   ) {}
+
+  add() {
+    const data = new User();
+    data.username = '小雅';
+    data.password = '123';
+    return this.userRepository.save(data);
+  }
   findAll() {
     return this.userRepository.find();
   }
