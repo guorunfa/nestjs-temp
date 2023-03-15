@@ -1,8 +1,7 @@
-import { Controller, Delete, Get, Patch, Post } from '@nestjs/common';
+import { Controller, Delete, Get, Param, Patch, Post } from '@nestjs/common';
 import { UserService } from './user.service';
 import { ConfigService } from '@nestjs/config';
 import { User } from './user.entity';
-import { log } from 'console';
 
 @Controller('user')
 export class UserController {
@@ -11,7 +10,7 @@ export class UserController {
     private configService: ConfigService,
   ) {}
 
-  @Get('add')
+  @Get('/add')
   getUsers(): any {
     console.log('add');
     return this.userService.add();
@@ -25,17 +24,18 @@ export class UserController {
     // return this.userService.addUser();
     return this.userService.create(user);
   }
-  @Patch()
-  updateUser(): any {
+  @Get('/update/:id')
+  updateUser(@Param() params): any {
     // todo 传递参数id
     // todo 异常处理
     const user = { username: 'newname' } as User;
-    return this.userService.update(1, user);
+    return this.userService.update(params.id, user);
   }
 
-  @Delete()
-  deleteUser(): any {
+  @Get('/delete/:id')
+  deleteUser(@Param() params): any {
+    console.log('delete');
     // todo 传递参数id
-    return this.userService.remove(1);
+    return this.userService.remove(params.id);
   }
 }
