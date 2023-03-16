@@ -38,4 +38,13 @@ export class UserController {
     // todo 传递参数id
     return this.userService.remove(params.id);
   }
+  @Get('/find/:name')
+  find(@Param() params): any {
+    console.log('name', params.name);
+    return this.userService.likeFind(params.name);
+  }
+  @Get('/profile')
+  profile(): any {
+    return this.userService.findProfile(5);
+  }
 }

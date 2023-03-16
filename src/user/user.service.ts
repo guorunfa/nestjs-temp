@@ -1,34 +1,49 @@
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
-import { Repository } from 'typeorm';
+import { Like, Repository } from 'typeorm';
 import { User } from './user.entity';
 
 @Injectable()
 export class UserService {
   constructor(
-    @InjectRepository(User) private readonly userRepository: Repository<User>,
+    @InjectRepository(User) private readonly user: Repository<User>,
   ) {}
 
   add() {
     const data = new User();
     data.username = '小率';
     data.password = '123';
-    return this.userRepository.save(data);
+    return this.user.save(data);
   }
   findAll() {
-    return this.userRepository.find();
+    return this.user.find();
   }
   find(username: string) {
-    return this.userRepository.findOne({ where: { username } });
+    return this.user.findOne({ where: { username } });
+  }
+  likeFind(username: string) {
+    return this.user.find({
+      where: { username: Like(`%${username}%`) },
+    });
   }
   async create(user: User) {
-    const userTmp = await this.userRepository.create(user);
-    return this.userRepository.save(userTmp);
+    const userTmp = await this.user.create(user);
+    return this.user.save(userTmp);
   }
   async update(id: number, user: Partial<User>) {
-    return this.userRepository.update(id, user);
+    return this.user.update(id, user);
   }
   remove(id: number) {
-    return this.userRepository.delete(id);
+    return this.user.delete(id);
+  }
+  findProfile(id: number) {
+    return this.user.findOne({
+      where: {
+        id,
+      },
+      relations: {
+        profile: true,
+      },
+    });
   }
 }
