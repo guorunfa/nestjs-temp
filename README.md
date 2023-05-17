@@ -82,3 +82,4 @@ $ pnpm run test:e2e
 $ pnpm run test:cov
 ```
 
+### typrorm [https://typeorm.bootcss.com/one-to-one-relations]

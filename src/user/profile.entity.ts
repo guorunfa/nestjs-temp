@@ -18,7 +18,7 @@ export class Profile {
   photo: string;
   @Column()
   adress: string;
-  @OneToOne(() => User)
-  @JoinColumn()
+  @OneToOne(() => User) // 一对一关联 -> 关联的表
+  @JoinColumn() // 一对一关联，关联字段
   user: User;
 }

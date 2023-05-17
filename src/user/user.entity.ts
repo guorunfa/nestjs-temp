@@ -1,5 +1,15 @@
-import { Column, Entity, OneToOne, PrimaryGeneratedColumn } from 'typeorm';
+import {
+  Column,
+  Entity,
+  JoinTable,
+  ManyToMany,
+  OneToMany,
+  OneToOne,
+  PrimaryGeneratedColumn,
+} from 'typeorm';
 import { Profile } from './profile.entity';
+import { Logs } from 'src/logs/logs.entity';
+import { Roles } from 'src/roles/roles.entity';
 
 @Entity()
 export class User {
@@ -11,11 +21,15 @@ export class User {
 
   @Column()
   password: string;
-  logs: any;
 
   @Column()
   age: number;
   // 关联表，(profile) => profile.user关联表里的字段
   @OneToOne(() => Profile, (profile) => profile.user)
   profile;
+  @OneToMany(() => Logs, (logs) => logs.user)
+  logs: Logs[];
+  @ManyToMany(() => Roles, (roles) => roles.users)
+  @JoinTable({ name: 'user_roles' })
+  roles: Roles[];
 }

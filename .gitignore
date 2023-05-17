@@ -1,5 +1,6 @@
 # my private
-/.env.development
+.env.development
+.env.production
 # compiled output
 /dist
 /node_modules
