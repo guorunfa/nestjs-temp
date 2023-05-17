@@ -26,7 +26,7 @@ export class User {
   age: number;
   // 关联表，(profile) => profile.user关联表里的字段
   @OneToOne(() => Profile, (profile) => profile.user)
-  profile;
+  profile: Profile;
   @OneToMany(() => Logs, (logs) => logs.user)
   logs: Logs[];
   @ManyToMany(() => Roles, (roles) => roles.users)
