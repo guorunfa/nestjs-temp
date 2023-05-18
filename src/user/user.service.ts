@@ -2,14 +2,17 @@ import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Like, Repository } from 'typeorm';
 import { User } from './user.entity';
+import { Logs } from '../logs/logs.entity';
 
 @Injectable()
 export class UserService {
   constructor(
     @InjectRepository(User) private readonly user: Repository<User>,
+    @InjectRepository(Logs) private readonly logsRepository: Repository<Logs>,
   ) {}
 
   add() {
+    console.log(this.logsRepository);
     const data = new User();
     data.username = '小率';
     data.password = '123';
@@ -45,5 +48,15 @@ export class UserService {
         profile: true,
       },
     });
+  }
+  findLogsByGroup(id: number) {
+    return this.logsRepository
+      .createQueryBuilder('logs')
+      .select('logs.result')
+      .addSelect('COUNT(logs.result)', 'count')
+      .leftJoinAndSelect('logs.user', 'user')
+      .where('logs.userId = :id', { id })
+      .groupBy('logs.result')
+      .getRawMany();
   }
 }

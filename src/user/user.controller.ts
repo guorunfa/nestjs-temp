@@ -14,7 +14,6 @@ export class UserController {
   getUsers(): any {
     console.log('add');
     return this.userService.add();
-    // return this.userService.getUsers();
   }
 
   @Post()
@@ -46,5 +45,9 @@ export class UserController {
   @Get('/profile')
   profile(): any {
     return this.userService.findProfile(5);
+  }
+  @Get('/logsByGroup')
+  getLogsByGroup(): any {
+    return this.userService.findLogsByGroup(5);
   }
 }
