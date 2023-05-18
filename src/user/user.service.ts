@@ -52,7 +52,7 @@ export class UserService {
   findLogsByGroup(id: number) {
     return this.logsRepository
       .createQueryBuilder('logs')
-      .select('logs.result')
+      .select('logs.result', 'result')
       .addSelect('COUNT(logs.result)', 'count')
       .leftJoinAndSelect('logs.user', 'user')
       .where('logs.userId = :id', { id })
