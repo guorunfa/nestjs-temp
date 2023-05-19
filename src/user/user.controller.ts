@@ -1,4 +1,12 @@
-import { Controller, Get, Param, Post } from '@nestjs/common';
+import {
+  Controller,
+  Get,
+  Inject,
+  Logger,
+  LoggerService,
+  Param,
+  Post,
+} from '@nestjs/common';
 import { UserService } from './user.service';
 import { ConfigService } from '@nestjs/config';
 import { User } from './user.entity';
@@ -8,6 +16,7 @@ export class UserController {
   constructor(
     private userService: UserService,
     private configService: ConfigService,
+    @Inject(Logger) private readonly logger: LoggerService,
   ) {}
 
   @Get('/add')

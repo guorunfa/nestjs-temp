@@ -10,6 +10,7 @@ import { User } from './user/user.entity';
 import { Profile } from './user/profile.entity';
 import { Logs } from './logs/logs.entity';
 import { Roles } from './roles/roles.entity';
+import { Logger } from '@nestjs/common';
 console.log('process.env.NODE_ENV', process.env.NODE_ENV);
 
 const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
@@ -60,6 +61,6 @@ const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
     UserModule,
   ],
   controllers: [],
-  providers: [],
+  providers: [Logger],
 })
 export class AppModule {}
