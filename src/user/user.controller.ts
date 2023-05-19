@@ -1,12 +1,4 @@
-import {
-  Controller,
-  Get,
-  Inject,
-  Logger,
-  LoggerService,
-  Param,
-  Post,
-} from '@nestjs/common';
+import { Controller, Get, Logger, Param, Post } from '@nestjs/common';
 import { UserService } from './user.service';
 import { ConfigService } from '@nestjs/config';
 import { User } from './user.entity';
@@ -16,7 +8,8 @@ export class UserController {
   constructor(
     private userService: UserService,
     private configService: ConfigService,
-    @Inject(Logger) private readonly logger: LoggerService,
+    // @Inject(Logger) private readonly logger: LoggerService,
+    private readonly logger: Logger,
   ) {}
 
   @Get('/add')
@@ -57,6 +50,7 @@ export class UserController {
   }
   @Get('/logsByGroup')
   getLogsByGroup(): any {
+    this.logger.log('getLogsByGroup');
     return this.userService.findLogsByGroup(5);
   }
 }
