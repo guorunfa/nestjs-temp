@@ -11,6 +11,7 @@ import { Profile } from './user/profile.entity';
 import { Logs } from './logs/logs.entity';
 import { Roles } from './roles/roles.entity';
 import { Logger } from '@nestjs/common';
+import { LogsModule } from './logs/logs.module';
 console.log('process.env.NODE_ENV', process.env.NODE_ENV);
 const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
 @Global()
@@ -29,18 +30,6 @@ const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
         DB_HOST: Joi.string().ip(),
       }),
     }),
-    // TypeOrmModule.forRoot({
-    //   type: 'mysql',
-    //   host: '',
-    //   port: 3306,
-    //   username: 'root',
-    //   password: '',
-    //   database: 'testdb',
-    //   entities: [],
-    //   // 同步本地的schema与数据库 -> 初始化的时候去使用
-    //   synchronize: true,
-    //   logging: ['error'],
-    // }),
     TypeOrmModule.forRootAsync({
       imports: [ConfigModule],
       inject: [ConfigService],
@@ -59,6 +48,7 @@ const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
         } as TypeOrmModuleOptions),
     }),
     UserModule,
+    LogsModule,
   ],
   controllers: [],
   providers: [Logger],

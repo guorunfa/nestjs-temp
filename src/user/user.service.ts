@@ -12,7 +12,7 @@ export class UserService {
   ) {}
 
   add() {
-    console.log(this.logsRepository);
+    // console.log(this.logsRepository);
     const data = new User();
     data.username = '小率';
     data.password = '123';
