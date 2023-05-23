@@ -20,6 +20,7 @@ function buildConnectionOptions() {
   // configService
   const config = { ...defaultConfig, ...envConfig };
 
+  // 优化目录读取
   const entitiesDir =
     process.env.NODE_ENV === 'test'
       ? [__dirname + '/**/*.entity.ts']

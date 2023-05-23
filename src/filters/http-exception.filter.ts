@@ -13,7 +13,6 @@ export class HttpExceptionFilter implements ExceptionFilter {
     const response = ctx.getResponse();
     const request = ctx.getRequest();
     const status = exception.getStatus();
-    // this.logger.error(exception.message, exception.stack);
     response.status(status).json({
       statusCode: status,
       timestamp: new Date().toISOString(),
@@ -21,10 +20,5 @@ export class HttpExceptionFilter implements ExceptionFilter {
       method: request.method,
       message: exception.message || exception.name,
     });
-    // console.log('exception.response', exception.response);
-    // console.log('exception.response.message', exception.response.message);
-    // console.log('exception.response.error', exception.response.error);
-    // console.log('exception.response.errorCode', exception.response.errorCode);
-    // console.log('exception.response.message', exception.response.message);
   }
 }

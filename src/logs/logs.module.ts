@@ -1,56 +1,57 @@
 import { Module } from '@nestjs/common';
+import { WinstonModule, WinstonModuleOptions } from 'nest-winston';
 import { ConfigService } from '@nestjs/config';
-import * as winston from 'winston'; // 引入winston,必须这么写
+import * as winston from 'winston';
 import { Console } from 'winston/lib/winston/transports';
-import { WinstonModule, WinstonModuleOptions, utilities } from 'nest-winston';
+import { utilities } from 'nest-winston';
+import * as DailyRotateFile from 'winston-daily-rotate-file';
 import { LogEnum } from '../enum/config.enum';
-import 'winston-daily-rotate-file';
+// import { LogsController } from './logs.controller';
+// import { LogsService } from './logs.service';
+
+function createDailyRotateTrasnport(level: string, filename: string) {
+  return new DailyRotateFile({
+    level,
+    dirname: 'logs',
+    filename: `${filename}-%DATE%.log`,
+    datePattern: 'YYYY-MM-DD-HH',
+    zippedArchive: true,
+    maxSize: '20m',
+    maxFiles: '14d',
+    format: winston.format.combine(
+      winston.format.timestamp(),
+      winston.format.simple(),
+    ),
+  });
+}
 @Module({
   imports: [
     WinstonModule.forRootAsync({
       inject: [ConfigService],
       useFactory: (configService: ConfigService) => {
         const consoleTransports = new Console({
+          level: 'info',
           format: winston.format.combine(
-            winston.format.timestamp(), // 时间戳
-            utilities.format.nestLike(), // nest日志格式
+            winston.format.timestamp(),
+            utilities.format.nestLike(),
           ),
         });
-        const dailyTransports = new winston.transports.DailyRotateFile({
-          level: configService.get(LogEnum.LOG_LEVEL),
-          filename: 'logs/application-%DATE%.log',
-          datePattern: 'YYYY-MM-DD-HH',
-          zippedArchive: true, // 是否压缩
-          maxSize: '20m',
-          maxFiles: '14d',
-          format: winston.format.combine(
-            winston.format.timestamp(), // 时间戳
-            utilities.format.nestLike(), // nest日志格式
-            winston.format.simple(), // 简单格式
-          ),
-        });
-        const dailyInfoTransports = new winston.transports.DailyRotateFile({
-          level: configService.get(LogEnum.LOG_LEVEL),
-          filename: 'logs/application-%DATE%.log',
-          datePattern: 'YYYY-MM-DD-HH',
-          zippedArchive: true, // 是否压缩
-          maxSize: '20m',
-          maxFiles: '14d',
-          format: winston.format.combine(
-            winston.format.timestamp(), // 时间戳
-            utilities.format.nestLike(), // nest日志格式
-          ),
-        });
+
         return {
           transports: [
             consoleTransports,
-            ...(configService.get(LogEnum.LOG_ON)
-              ? [dailyTransports, dailyInfoTransports]
+            ...(configService.get(LogEnum.LOG_ON) === 'true'
+              ? [
+                  createDailyRotateTrasnport('info', 'application'),
+                  createDailyRotateTrasnport('warn', 'error'),
+                ]
               : []),
           ],
         } as WinstonModuleOptions;
       },
     }),
   ],
+  // controllers: [LogsController],
+  // providers: [LogsService],
 })
 export class LogsModule {}
