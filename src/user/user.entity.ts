@@ -8,8 +8,8 @@ import {
   PrimaryGeneratedColumn,
 } from 'typeorm';
 import { Profile } from './profile.entity';
-import { Logs } from 'src/logs/logs.entity';
-import { Roles } from 'src/roles/roles.entity';
+import { Logs } from '../logs/logs.entity';
+import { Roles } from '../roles/roles.entity';
 
 @Entity()
 export class User {

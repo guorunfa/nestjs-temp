@@ -1,0 +1,76 @@
+info: UserController {/user}: {"context":"RoutesResolver","timestamp":"2023-05-22T09:02:01.270Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+info: Mapped {/user/add, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:02:01.273Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+info: Mapped {/user, POST} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:02:01.274Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+info: Mapped {/user/update/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:02:01.275Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+info: Mapped {/user/delete/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:02:01.276Z"}
+info: Mapped {/user/find/:name, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:02:01.277Z"}
+info: Mapped {/user/profile, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:02:01.277Z"}
+info: Mapped {/user/logsByGroup, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:02:01.278Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2023-05-22T09:02:01.289Z"}
+info: UserController {/user}: {"context":"RoutesResolver","timestamp":"2023-05-22T09:02:01.305Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:02:01 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+info: UserController {/user}: {"context":"RoutesResolver","timestamp":"2023-05-22T09:06:36.971Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+info: Mapped {/user/add, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:06:36.975Z"}
+info: Mapped {/user, POST} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:06:36.976Z"}
+info: Mapped {/user/update/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:06:36.977Z"}
+info: Mapped {/user/delete/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:06:36.978Z"}
+info: Mapped {/user/find/:name, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:06:36.980Z"}
+info: Mapped {/user/profile, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:06:36.981Z"}
+info: Mapped {/user/logsByGroup, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:06:36.981Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2023-05-22T09:06:36.984Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:36 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+info: UserController {/user}: {"context":"RoutesResolver","timestamp":"2023-05-22T09:06:37.204Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:06:37 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+info: UserController {/user}: {"context":"RoutesResolver","timestamp":"2023-05-22T09:23:35.160Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+info: Mapped {/user/add, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:35.163Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+info: Mapped {/user, POST} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:35.164Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+info: Mapped {/user/update/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:35.165Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+info: Mapped {/user/delete/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:35.166Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:35 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+info: Mapped {/user/find/:name, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:35.167Z"}
+info: Mapped {/user/profile, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:35.167Z"}
+info: Mapped {/user/logsByGroup, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:35.168Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2023-05-22T09:23:35.172Z"}
+info: UserController {/user}: {"context":"RoutesResolver","timestamp":"2023-05-22T09:23:37.577Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+info: Mapped {/user/add, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:37.579Z"}
+info: Mapped {/user, POST} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:37.580Z"}
+info: Mapped {/user/update/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:37.581Z"}
+info: Mapped {/user/delete/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:37.581Z"}
+info: Mapped {/user/find/:name, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:37.582Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+info: Mapped {/user/profile, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:37.583Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+info: Mapped {/user/logsByGroup, GET} route {"context":"RouterExplorer","timestamp":"2023-05-22T09:23:37.583Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2023-05-22T09:23:37.585Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/22 17:23:37 [33m[NestApplication][39m [32mNest application successfully started[39m - {}

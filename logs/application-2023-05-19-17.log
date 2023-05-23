@@ -1,0 +1,174 @@
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:00:10 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:01:10 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:02:04 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:02:04 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:02:04 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:02:04 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:02:04 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:02:04 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:02:04 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+error: app.use() requires a middleware function {"context":"ExceptionHandler","stack":["TypeError: app.use() requires a middleware function\n    at Function.use (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\application.js:217:11)\n    at ExpressAdapter.use (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\adapters\\http-adapter.js:14:30)\n    at NestApplication.use (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\nest-application.js:146:26)\n    at C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\nest-factory.js:145:40\n    at Function.run (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\errors\\exceptions-zone.js:10:13)\n    at Proxy.<anonymous> (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\nest-factory.js:144:46)\n    at Proxy.<anonymous> (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\nest-factory.js:193:54)\n    at bootstrap (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\src\\main.ts:49:7)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"],"timestamp":"2023-05-19T09:02:04.455Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:14 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:14 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:14 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:14 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:14 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:14 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:15 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:03:36 [32mgetLogsByGroup[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:17 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:05:50 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:11:49 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+error: Cannot GET /user/logsByGroup/1 {"stack":["NotFoundException: Cannot GET /user/logsByGroup/1\n    at callback (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\router\\routes-resolver.js:77:19)\n    at C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:23\n    at Layer.handle [as handle_request] (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at urlencodedParser (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\body-parser@1.20.1\\node_modules\\body-parser\\lib\\types\\urlencoded.js:91:7)\n    at Layer.handle [as handle_request] (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:328:13)"],"timestamp":"2023-05-19T09:12:25.507Z"}
+[31m[NestWinston][39m [33mError[39m	2023/5/19 17:12:25 [31mCannot GET /user/logsByGroup/1[39m - {"stack":["NotFoundException: Cannot GET /user/logsByGroup/1\n    at callback (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\router\\routes-resolver.js:77:19)\n    at C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\@nestjs+core@9.3.9_q6agyr4hwia55oswpsa7zjxcpm\\node_modules\\@nestjs\\core\\router\\router-proxy.js:9:23\n    at Layer.handle [as handle_request] (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at urlencodedParser (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\body-parser@1.20.1\\node_modules\\body-parser\\lib\\types\\urlencoded.js:91:7)\n    at Layer.handle [as handle_request] (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (C:\\Users\\root\\Desktop\\study\\nestjs-temp\\node_modules\\.pnpm\\express@4.18.2\\node_modules\\express\\lib\\router\\index.js:328:13)"]}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:49 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:49 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:49 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:49 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:49 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:49 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:50 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:20:56 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mLogsModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 17:25:02 [33m[NestApplication][39m [32mNest application successfully started[39m - {}

@@ -1,0 +1,131 @@
+{"context":"NestFactory","level":"info","message":"Starting Nest application..."}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"UserModule dependencies initialized"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/add, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/update/:id, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/delete/:id, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/find/:name, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logsByGroup, GET} route"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"context":"NestFactory","level":"info","message":"Starting Nest application..."}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"AppModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigHostModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"ConfigModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmCoreModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"TypeOrmModule dependencies initialized"}
+{"context":"InstanceLoader","level":"info","message":"UserModule dependencies initialized"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/user}:"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/add, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user, POST} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/update/:id, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/delete/:id, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/find/:name, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/profile, GET} route"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/user/logsByGroup, GET} route"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started"}
+{"level":"info","message":"getLogsByGroup"}
+{"level":"info","message":"getLogsByGroup"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:15 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:30:17 [32mgetLogsByGroup[39m - {}
+info: Starting Nest application... {"context":"NestFactory","timestamp":"2023-05-19T08:35:43.070Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","timestamp":"2023-05-19T08:35:43.081Z"}
+info: AppModule dependencies initialized {"context":"InstanceLoader","timestamp":"2023-05-19T08:35:43.081Z"}
+info: ConfigHostModule dependencies initialized {"context":"InstanceLoader","timestamp":"2023-05-19T08:35:43.082Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","timestamp":"2023-05-19T08:35:43.082Z"}
+info: ConfigModule dependencies initialized {"context":"InstanceLoader","timestamp":"2023-05-19T08:35:43.083Z"}
+info: TypeOrmCoreModule dependencies initialized {"context":"InstanceLoader","timestamp":"2023-05-19T08:35:43.429Z"}
+info: TypeOrmModule dependencies initialized {"context":"InstanceLoader","timestamp":"2023-05-19T08:35:43.431Z"}
+info: UserModule dependencies initialized {"context":"InstanceLoader","timestamp":"2023-05-19T08:35:43.433Z"}
+info: UserController {/user}: {"context":"RoutesResolver","timestamp":"2023-05-19T08:35:43.439Z"}
+info: Mapped {/user/add, GET} route {"context":"RouterExplorer","timestamp":"2023-05-19T08:35:43.441Z"}
+info: Mapped {/user, POST} route {"context":"RouterExplorer","timestamp":"2023-05-19T08:35:43.442Z"}
+info: Mapped {/user/update/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-19T08:35:43.442Z"}
+info: Mapped {/user/delete/:id, GET} route {"context":"RouterExplorer","timestamp":"2023-05-19T08:35:43.443Z"}
+info: Mapped {/user/find/:name, GET} route {"context":"RouterExplorer","timestamp":"2023-05-19T08:35:43.443Z"}
+info: Mapped {/user/profile, GET} route {"context":"RouterExplorer","timestamp":"2023-05-19T08:35:43.444Z"}
+info: Mapped {/user/logsByGroup, GET} route {"context":"RouterExplorer","timestamp":"2023-05-19T08:35:43.444Z"}
+info: Nest application successfully started {"context":"NestApplication","timestamp":"2023-05-19T08:35:43.447Z"}
+info: getLogsByGroup {"timestamp":"2023-05-19T08:35:48.823Z"}
+info: getLogsByGroup {"timestamp":"2023-05-19T08:35:56.354Z"}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:38:07 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:49:39 [33m[NestApplication][39m [32mNest application successfully started[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:46 [33m[NestFactory][39m [32mStarting Nest application...[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:46 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:46 [33m[InstanceLoader][39m [32mAppModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:46 [33m[InstanceLoader][39m [32mConfigHostModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:46 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:46 [33m[InstanceLoader][39m [32mConfigModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[InstanceLoader][39m [32mTypeOrmCoreModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[InstanceLoader][39m [32mTypeOrmModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[InstanceLoader][39m [32mUserModule dependencies initialized[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[RoutesResolver][39m [32mUserController {/user}:[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[RouterExplorer][39m [32mMapped {/user/add, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[RouterExplorer][39m [32mMapped {/user, POST} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[RouterExplorer][39m [32mMapped {/user/update/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[RouterExplorer][39m [32mMapped {/user/delete/:id, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[RouterExplorer][39m [32mMapped {/user/find/:name, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[RouterExplorer][39m [32mMapped {/user/profile, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[RouterExplorer][39m [32mMapped {/user/logsByGroup, GET} route[39m - {}
+[32m[NestWinston][39m [33mInfo[39m	2023/5/19 16:53:47 [33m[NestApplication][39m [32mNest application successfully started[39m - {}

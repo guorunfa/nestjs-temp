@@ -12,7 +12,8 @@ import { Logs } from './logs/logs.entity';
 import { Roles } from './roles/roles.entity';
 import { Logger } from '@nestjs/common';
 import { LogsModule } from './logs/logs.module';
-console.log('process.env.NODE_ENV', process.env.NODE_ENV);
+import { connectionParams } from '../ormconfig';
+// console.log('process.env.NODE_ENV', process.env.NODE_ENV);
 const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
 @Global()
 @Module({
@@ -47,6 +48,7 @@ const envFilePath = `.env.${process.env.NODE_ENV || `development`}`;
           logging: process.env.NODE_ENV === 'development',
         } as TypeOrmModuleOptions),
     }),
+    TypeOrmModule.forRoot(connectionParams),
     UserModule,
     LogsModule,
   ],
