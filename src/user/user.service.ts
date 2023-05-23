@@ -49,14 +49,14 @@ export class UserService {
       },
     });
   }
-  // findLogsByGroup(id: number) {
-  //   return this.logsRepository
-  //     .createQueryBuilder('logs')
-  //     .select('logs.result', 'result')
-  //     .addSelect('COUNT(logs.result)', 'count')
-  //     .leftJoinAndSelect('logs.user', 'user')
-  //     .where('logs.userId = :id', { id })
-  //     .groupBy('logs.result')
-  //     .getRawMany();
-  // }
+  findLogsByGroup(id: number) {
+    return this.logsRepository
+      .createQueryBuilder('logs')
+      .select('logs.result', 'result')
+      .addSelect('COUNT(logs.result)', 'count')
+      .leftJoinAndSelect('logs.user', 'user')
+      .where('logs.userId = :id', { id })
+      .groupBy('logs.result')
+      .getRawMany();
+  }
 }

@@ -5,6 +5,7 @@ import {
   LoggerService,
   Param,
   Post,
+  Query,
 } from '@nestjs/common';
 import { UserService } from './user.service';
 import { ConfigService } from '@nestjs/config';
@@ -50,8 +51,13 @@ export class UserController {
   profile(): any {
     return this.userService.findProfile(5);
   }
-  // @Get('/logsByGroup')
-  // getLogsByGroup(): any {
-  //   return this.userService.findLogsByGroup(5);
-  // }
+  @Get('/logsByGroup')
+  getLogsByGroup(): any {
+    return this.userService.findLogsByGroup(5);
+  }
+  @Get('/')
+  getUser(@Query() query: any): any {
+    console.log(query);
+    return this.userService.findAll();
+  }
 }
