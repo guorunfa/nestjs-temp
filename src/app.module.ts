@@ -1,15 +1,10 @@
 import { Global, Module } from '@nestjs/common';
 import { UserModule } from './user/user.module';
-import { ConfigEnum } from './enum/config.enum';
-import { ConfigModule, ConfigService } from '@nestjs/config';
+import { ConfigModule } from '@nestjs/config';
 import * as dotenv from 'dotenv';
 import * as Joi from 'joi';
 
-import { TypeOrmModule, TypeOrmModuleOptions } from '@nestjs/typeorm';
-import { User } from './user/user.entity';
-import { Profile } from './user/profile.entity';
-import { Logs } from './logs/logs.entity';
-import { Roles } from './roles/roles.entity';
+import { TypeOrmModule } from '@nestjs/typeorm';
 import { Logger } from '@nestjs/common';
 import { LogsModule } from './logs/logs.module';
 import { connectionParams } from '../ormconfig';
