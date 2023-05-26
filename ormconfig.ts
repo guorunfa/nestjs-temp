@@ -1,9 +1,12 @@
 import { TypeOrmModuleOptions } from '@nestjs/typeorm';
-
 import { DataSource, DataSourceOptions } from 'typeorm';
 import * as fs from 'fs';
 import * as dotenv from 'dotenv';
 import { ConfigEnum } from './src/enum/config.enum';
+import { Profile } from './src/user/profile.entity';
+import { User } from './src/user/user.entity';
+import { Logs } from './src/logs/logs.entity';
+import { Roles } from './src/roles/roles.entity';
 
 // 通过环境变量读取不同的.env文件
 function getEnv(env: string): Record<string, unknown> {
@@ -22,10 +25,10 @@ function buildConnectionOptions() {
 
   // 优化目录读取
   const entitiesDir =
-    process.env.NODE_ENV === 'test'
-      ? [__dirname + '/**/*.entity.ts']
+    process.env.NODE_ENV === 'development'
+      ? [__dirname + '/**/**/*.entity{.js,.ts}']
       : [__dirname + '/**/*.entity{.js,.ts}'];
-
+  console.log('entitiesDir', process.env.NODE_ENV, entitiesDir);
   return {
     type: config[ConfigEnum.DB_TYPE],
     host: config[ConfigEnum.DB_HOST],
@@ -33,7 +36,7 @@ function buildConnectionOptions() {
     username: config[ConfigEnum.DB_USERNAME],
     password: config[ConfigEnum.DB_PASSWORD],
     database: config[ConfigEnum.DB_DATABASE],
-    entities: entitiesDir,
+    entities: [User, Profile, Logs, Roles], // TODO----> entitiesDir 暂时不支持，没找到问题所在
     // 同步本地的schema与数据库 -> 初始化的时候去使用
     synchronize: true,
     // logging: process.env.NODE_ENV === 'development',
